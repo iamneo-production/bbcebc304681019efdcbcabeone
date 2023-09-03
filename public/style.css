@@ -19,5 +19,6 @@ body {
 
 #reset{
   background: white;
-  border-radius:b
+  border-radius: 2px;
+  text-align: center;
 }

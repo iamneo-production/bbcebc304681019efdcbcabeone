@@ -18,6 +18,18 @@ let conditions = [
 const ticTacToe = (element, index) => {
     // Your game logic here
 
+    var b1, b2, b3, b4, b5, b6, b7, b8, b9;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    b1 = document.getElementById("b1").ariaValueMax;
+    
+
     /*
     **Part 1: Winning Conditions (Add your code here)**
 
