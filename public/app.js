@@ -118,9 +118,9 @@ const ticTacToe = (element, index) => {
         b9btn.disabled = true;
     }
 
+///////////////////////////////////////////////////
 
-
-    else if ((b1 =='x' || b1 == 'X') && (b2 == 'x' || b2 == 'X') && (b3 =='x' || b3 == 'X')){
+    else if ((b1 =='o' || b1 == 'X') && (b2 == 'o' || b2 == 'X') && (b3 =='o' || b3 == 'X')){
         document.getElementById('result').innerHTML = "Player X Won";
         b4btn.disabled = true;
         b5btn.disabled = true;
