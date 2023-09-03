@@ -193,10 +193,21 @@ const ticTacToe = (element, index) => {
     // Your code to update the game state and check for a win
     // ...
 
-    else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X' || b2 == 'O') && (b4 == 'X' || b4 == 'O') && (b5 == 'X' || b5 == 'O') && (b6 == 'X' || b4 == 'O') && (b5 == 'X' || b5 == 'O') && (b4 == 'X' || b4 == 'O') && (b5 == 'X' || b5 == 'O'))
+    else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X' || b2 == 'O') && (b4 == 'X' || b4 == 'O') && (b5 == 'X' || b5 == 'O') && (b6 == 'X' || b6 == 'O') && (b7 == 'X' || b7 == 'O') && (b8 == 'X' || b8 == 'O') && (b9 == 'X' || b9 == 'O')){
+        document.getElementById('result').innerHTML = "Match Tie";
+    }
 
     // Your code to display the current player's turn
     // ...
+
+    else{
+        if(flag == 1){
+            document.getElementById('result').innerHTML = "Player X Turn";
+        }
+        else{
+            document.getElementById('result').innerHTML = "Player X Turn";
+        }
+    }
 
     // Your code to handle button and cell interactions
     // ...
