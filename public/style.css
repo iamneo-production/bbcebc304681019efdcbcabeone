@@ -22,3 +22,8 @@ body {
   border-radius: 2px;
   text-align: center;
 }
+
+.box{
+  display: flex;
+  
+}
