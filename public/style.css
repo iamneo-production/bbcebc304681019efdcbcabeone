@@ -24,6 +24,19 @@ body {
 }
 
 .box{
-  display: flex;
   
+  align-items: center;
+  
+  margin: 35px;
+}
+
+.row{
+  
+}
+
+.btn{
+  border: 1px;
+  border-radius: 3px;
+  height: 75px;
+  width: 75px;
 }
