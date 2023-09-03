@@ -20,16 +20,26 @@ const ticTacToe = (element, index) => {
 
     var b1, b2, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    b1 = document.getElementById("b1").ariaValueMax;
-    
+    b2 = document.getElementById("b2").ariaValueMax;
+    b3 = document.getElementById("b3").ariaValueMax;
+    b4 = document.getElementById("b4").ariaValueMax;
+    b5 = document.getElementById("b5").ariaValueMax;
+    b6 = document.getElementById("b6").ariaValueMax;
+    b7 = document.getElementById("b7").ariaValueMax;
+    b8 = document.getElementById("b8").ariaValueMax;
+    b9 = document.getElementById("b9").ariaValueMax;
 
+    var b1btn, b2btn, b3btn, b4btn, b5btn, b6btn, b7btn, b8btn, b9btn;
+
+    b1btn = document.getElementById("b1").ariaValueMax;
+    b2btn = document.getElementById("b2").ariaValueMax;
+    b3btn = document.getElementById("b3").ariaValueMax;
+    b4btn = document.getElementById("b4").ariaValueMax;
+    b5btn = document.getElementById("b5").ariaValueMax;
+    b6btn = document.getElementById("b6").ariaValueMax;
+    b7btn = document.getElementById("b7").ariaValueMax;
+    b8btn = document.getElementById("b8").ariaValueMax;
+    b9btn = document.getElementById("b9").ariaValueMax;
     /*
     **Part 1: Winning Conditions (Add your code here)**
 
