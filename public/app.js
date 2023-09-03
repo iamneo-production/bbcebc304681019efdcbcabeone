@@ -212,6 +212,70 @@ const ticTacToe = (element, index) => {
     // Your code to handle button and cell interactions
     // ...
 
+    flag =1;
+    function myfunc_3(){
+        if(flag == 1){
+            document.getElementById("b1").value = "X";
+            document.getElementById("b1").disabled = true;
+            flag = 0;
+        }
+        else{
+            document.getElementById("b1").value = "O";
+            document.getElementById("b1").disabled = true;
+            flag = 1;
+        }
+    }
+
+    function myfunc_4(){
+        if(flag == 1){
+            document.getElementById("b2").value = "X";
+            document.getElementById("b2").disabled = true;
+            flag = 0;
+        }
+        else{
+            document.getElementById("b2").value = "O";
+            document.getElementById("b2").disabled = true;
+            flag = 1;
+        }
+    }
+
+    function myfunc_5(){
+        if(flag == 1){
+            document.getElementById("b3").value = "X";
+            document.getElementById("b3").disabled = true;
+            flag = 0;
+        }
+        else{
+            document.getElementById("b3").value = "O";
+            document.getElementById("b3").disabled = true;
+            flag = 1;
+        }
+    }
+
+    function myfunc_6(){
+        if(flag == 1){
+            document.getElementById("b4").value = "X";
+            document.getElementById("b4").disabled = true;
+            flag = 0;
+        }
+        else{
+            document.getElementById("b4").value = "O";
+            document.getElementById("b4").disabled = true;
+            flag = 1;
+        }
+    }
+    function myfunc_7(){
+        if(flag == 1){
+            document.getElementById("b5").value = "X";
+            document.getElementById("b5").disabled = true;
+            flag = 0;
+        }
+        else{
+            document.getElementById("b5").value = "O";
+            document.getElementById("b5").disabled = true;
+            flag = 1;
+        }
+    }
     
 };
 
