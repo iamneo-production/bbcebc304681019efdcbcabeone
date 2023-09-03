@@ -13,5 +13,6 @@ body {
 
 #header{
   text-align: center;
-  
+  color: white;
+  text-shadow: 5px black;
 }
