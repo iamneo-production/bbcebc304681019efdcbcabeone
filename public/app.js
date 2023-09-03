@@ -160,8 +160,8 @@ const ticTacToe = (element, index) => {
         b8btn.disabled = true;
     }
 
-    else if((b1 =='x' || b1 == 'X') && (b5 == 'x' || b5 == 'X') && (b9 == 'x' || b9 == 'X')){
-        document.getElementById('result').innerHTML = "Player X Won";
+    else if((b1 =='x' || b1 == 'O') && (b5 == 'x' || b5 == 'O') && (b9 == 'x' || b9 == 'O')){
+        document.getElementById('result').innerHTML = "Player O Won";
         b2btn.disabled = true;
         b3btn.disabled = true;
         b4btn.disabled = true;
@@ -170,8 +170,8 @@ const ticTacToe = (element, index) => {
         b8btn.disabled = true;
     }
 
-    else if((b2 =='x' || b2 == 'X') && (b5 == 'x' || b5 == 'X') && (b8 =='x' || b8 == 'X')){
-        document.getElementById('result').innerHTML = "Player X Won";
+    else if((b2 =='o' || b2 == 'O') && (b5 == 'o' || b5 == 'O') && (b8 =='o' || b8 == 'O')){
+        document.getElementById('result').innerHTML = "Player O Won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
@@ -180,8 +180,8 @@ const ticTacToe = (element, index) => {
         b9btn.disabled = true;
     }
 
-    else if((b4 =='x' || b4 == 'X') && (b5 == 'x' || b5 == 'X') && (b6 =='x' || b6 == 'X')){
-        document.getElementById('result').innerHTML = "Player X Won";
+    else if((b4 =='o' || b4 == 'O') && (b5 == 'o' || b5 == 'O') && (b6 =='o' || b6 == 'O')){
+        document.getElementById('result').innerHTML = "Player O Won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b3btn.disabled = true;
