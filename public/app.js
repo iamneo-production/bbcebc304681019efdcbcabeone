@@ -48,6 +48,11 @@ const ticTacToe = (element, index) => {
     3. Disable all buttons after a win.
     */
 
+    if ((b1 =='x' || b1 == 'X') && (b2 == 'x' || b2 == 'X') && (b3 =='x' || b3 == 'X')){
+        document.getElementById('result')
+        
+    }
+
     // Your code to update the game state and check for a win
     // ...
 
