@@ -98,22 +98,94 @@ const ticTacToe = (element, index) => {
         b8btn.disabled = true;
     }
 
-    else if((b3 =='x' || b3 == 'X') && (b5 == 'x' || b5 == 'X') && (b7 =='x' || b9 == 'X')){
+    else if((b2 =='x' || b2 == 'X') && (b5 == 'x' || b5 == 'X') && (b8 =='x' || b8 == 'X')){
         document.getElementById('result').innerHTML = "Player X Won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b9btn.disabled = true;
+    }
+
+    else if((b4 =='x' || b4 == 'X') && (b5 == 'x' || b5 == 'X') && (b6 =='x' || b6 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b1btn.disabled = true;
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+    }
+
+
+
+    else if ((b1 =='x' || b1 == 'X') && (b2 == 'x' || b2 == 'X') && (b3 =='x' || b3 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b4btn.disabled = true;
+        b5btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+    }
+
+    else if((b1 =='x' || b1 == 'X') && (b4 == 'x' || b4 == 'X') && (b7 =='x' || b7== 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b5btn.disabled = true;
         b6btn.disabled = true;
         b8btn.disabled = true;
         b9btn.disabled = true;
     }
 
-    else if((b2 =='x' || b2 == 'X') && (b5 == 'x' || 56 == 'X') && (b8 =='x' || b8 == 'X')){
+    else if((b7 =='x' || b7 == 'X') && (b8 == 'x' || b8 == 'X') && (b9 =='x' || b9 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b1btn.disabled = true;
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b4btn.disabled = true;
+        b5btn.disabled = true;
+        b6btn.disabled = true;
+    }
+
+    else if((b3 =='x' || b3 == 'X') && (b6 == 'x' || b6 == 'X') && (b9 =='x' || b9 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b1btn.disabled = true;
+        b2btn.disabled = true;
+        b4btn.disabled = true;
+        b5btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+    }
+
+    else if((b1 =='x' || b1 == 'X') && (b5 == 'x' || b5 == 'X') && (b9 == 'x' || b9 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b4btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+    }
+
+    else if((b2 =='x' || b2 == 'X') && (b5 == 'x' || b5 == 'X') && (b8 =='x' || b8 == 'X')){
         document.getElementById('result').innerHTML = "Player X Won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
         b6btn.disabled = true;
+        b7btn.disabled = true;
+        b9btn.disabled = true;
+    }
+
+    else if((b4 =='x' || b4 == 'X') && (b5 == 'x' || b5 == 'X') && (b6 =='x' || b6 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b1btn.disabled = true;
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b7btn.disabled = true;
         b8btn.disabled = true;
         b9btn.disabled = true;
     }
