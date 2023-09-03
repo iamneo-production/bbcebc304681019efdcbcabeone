@@ -108,6 +108,16 @@ const ticTacToe = (element, index) => {
         b9btn.disabled = true;
     }
 
+    else if((b2 =='x' || b2 == 'X') && (b5 == 'x' || 56 == 'X') && (b8 =='x' || b8 == 'X')){
+        document.getElementById('result').innerHTML = "Player X Won";
+        b1btn.disabled = true;
+        b2btn.disabled = true;
+        b4btn.disabled = true;
+        b6btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+    }
+
     // Your code to update the game state and check for a win
     // ...
 
